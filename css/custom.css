@@ -1,0 +1,114 @@
+#body{
+    background-color:#777777;
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.container{
+    width: 824px;
+    padding-bottom: 90px;
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    color: #ff6e00;
+    background-color:black;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+#content{
+    padding-left: 40px;
+}
+
+.loading-info{
+    margin-left: 50%;
+}
+
+#load_more_button{
+    width:100%;
+    opacity:0.6;
+    font-size:35px;
+}
+
+#post_image{
+    width:722px;
+    height: 400px;
+}
+
+#post_text{
+    font-family:'Open Sans', sans-serif;
+    font-size:20px;
+    font-style: normal;
+    font-weight:300;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#title{
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#postText{
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    white-space: pre-line;
+}
+
+#post_title{
+    margin-top:30px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#create_post_content{
+    padding-bottom:50px;
+    padding-left:60px;
+    padding-right:35px;
+}
+
+#post_location_text{
+    padding-bottom:50px;
+    padding-left:60px;
+    padding-right:60px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ff6e00;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navbar-inverse .navbar-brand {
+    color:#ff6e00;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
